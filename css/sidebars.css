@@ -1,0 +1,25 @@
+ nav{
+  background-color: transparent;
+  z-index: 2;
+  position: fixed;
+}
+
+.bi {
+  vertical-align: -.125em;
+  pointer-events: none;
+  fill: currentColor;
+}
+
+.nav-flush .nav-link {
+  border-radius: 0;
+  color: aliceblue;
+}
+.nav-flush .nav-link:hover{
+  color: rgb(250, 174, 75);
+}
+.scrollarea {
+  overflow-y: auto;
+}
+
+.fw-semibold { font-weight: 600; }
+.lh-tight { line-height: 1.25; }
