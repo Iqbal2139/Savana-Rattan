@@ -6,17 +6,11 @@
      background-color: black;
      background-size: cover;
  }
- main {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    overflow-y: hidden;
-  }
 .gradasi{
     background-size: cover;
     background-color: black;
     z-index: 2;
-    height: 650px;
+    height: 810px;
     position: absolute;
     opacity: 0.30;
 }  
