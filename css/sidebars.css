@@ -12,10 +12,10 @@
 
 .nav-flush .nav-link {
   border-radius: 0;
-  color: aliceblue;
+  color: #151830;
 }
 .nav-flush .nav-link:hover{
-  color: rgb(250, 174, 75);
+  color: aliceblue;
 }
 .scrollarea {
   overflow-y: auto;
