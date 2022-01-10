@@ -35,6 +35,11 @@
     background-color: #eee4c4ef;
     font-size: 13px;
 }
+.bg-lightbox {
+    background-size: cover;
+    background-color: #eee4c4ef;
+    font-size: 13px;
+}
 #exhibition{
     background-size: cover;
     background-color: #eee4c4ef;

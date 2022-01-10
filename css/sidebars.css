@@ -12,13 +12,42 @@
 
 .nav-flush .nav-link {
   border-radius: 0;
-  color: #151830;
+  color: white;
 }
 .nav-flush .nav-link:hover{
-  color: aliceblue;
+  color: #151830;
 }
 .scrollarea {
   overflow-y: auto;
+}
+
+.brand {
+  background-color: #2c2203ef;
+  background-size: cover;
+}
+.navbg1 {
+  background-color: #463603ef;
+  background-size: cover;
+}
+.navbg2 {
+  background-color: #644f0bef;
+  background-size: cover;
+}
+.navbg3 {
+  background-color: #7e671def;
+  background-size: cover;
+}
+.navbg4 {
+  background-color: #947b28ef;
+  background-size: cover;
+}
+.navbg5 {
+  background-color: #b19741ef;
+  background-size: cover;
+}
+.navbg6 {
+  background-color: #c7af61ef;
+  background-size: cover;
 }
 
 .fw-semibold { font-weight: 600; }
