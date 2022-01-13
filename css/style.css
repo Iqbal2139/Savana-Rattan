@@ -32,7 +32,7 @@
 }
 #about {
     background-size: cover;
-    background-color: #eee4c4ef;
+    background-image: linear-gradient(to top right, #eee4c4ef, white);
     font-size: 13px;
 }
 .bg-lightbox {
@@ -42,7 +42,7 @@
 }
 #exhibition{
     background-size: cover;
-    background-color: #eee4c4ef;
+    background-image: linear-gradient(to top right, #eee4c4ef, white);
 }
 #exhibition a {
     font-size: 15px;
@@ -54,20 +54,17 @@
 }
 #product{
     background-size: cover;
-    background-color: #E3D29C;
+    background-image: linear-gradient(to bottom right, #eee4c4ef, white);
 }
 #download{
     background-size: cover;
-    background-color: #E3D29C;
+    background-image: linear-gradient(to bottom right, #eee4c4ef, white);
 }
 #contact{
     background-size: cover;
-    background-color: #eee4c4ef;
+    background-image: linear-gradient(to top right, #eee4c4ef, white);
     font-size: 13px;
     
-}
-.card {
-    background-color: transparent;
 }
 /* Efek Tulisan diatas gambar hover */
 /* .card-img-overlay{
@@ -95,3 +92,13 @@
     transition: .5s ease;
 }
 
+/* Mobile version */
+/* @media (min-width: 576px) { 
+
+
+ }
+ */
+
+
+/* Large desktops version */
+/* @media (min-width: 1200px) { ... } */

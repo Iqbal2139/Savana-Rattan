@@ -3,11 +3,15 @@
   z-index: 2;
   position: fixed;
 }
-
+.nav-item{
+  width: 60px;
+  height: 60px;
+}
 .bi {
   vertical-align: -.125em;
   pointer-events: none;
   fill: currentColor;
+  font-size: 25px;
 }
 
 .nav-flush .nav-link {
@@ -21,28 +25,36 @@
   overflow-y: auto;
 }
 
-.brand {
+.brand{
   background-color: #2c2203ef;
   background-size: cover;
+  width: 60px;
+  height: 60px;
+  padding-top: 10px;
+  padding-left: 13px;
+}
+.brand img{
+  width: 40px;
+  height: 40px;
 }
 .navbg1 {
-  background-color: #463603ef;
+  background-color: #D4CAA3;
   background-size: cover;
 }
 .navbg2 {
-  background-color: #644f0bef;
+  background-color: #F6E8B1;
   background-size: cover;
 }
 .navbg3 {
-  background-color: #7e671def;
+  background-color: #F8F0C6;
   background-size: cover;
 }
 .navbg4 {
-  background-color: #947b28ef;
+  background-color: #FFFDD1;
   background-size: cover;
 }
 .navbg5 {
-  background-color: #b19741ef;
+  background-color: #F0E9D2;
   background-size: cover;
 }
 .navbg6 {
@@ -52,3 +64,156 @@
 
 .fw-semibold { font-weight: 600; }
 .lh-tight { line-height: 1.25; }
+
+/* Tablets Version */
+@media (max-width: 991.98px) {
+  nav{
+    background-color: transparent;
+    z-index: 2;
+    position: fixed;
+  }
+  .nav-item{
+    width: 40px;
+    height: 40px;
+  }
+  .bi{
+    position: relative;
+    vertical-align: -.125em;
+    pointer-events: none;
+    fill: currentColor;
+    font-size: 15px;
+    right: 5px;
+    bottom: 5px;
+  }
+  
+  .nav-flush .nav-link {
+    border-radius: 0;
+    color: white;
+  }
+  .nav-flush .nav-link:hover{
+    color: #151830;
+  }
+  .scrollarea {
+    overflow-y: auto;
+  }
+  
+  .brand {
+    background-color: #2c2203ef;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+  }
+
+  .brand img{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 8px;
+    top: 52px;
+  }
+  .navbg1 {
+    background-color: #D4CAA3;
+    background-size: cover;
+  }
+  .navbg2 {
+    background-color: #F6E8B1;
+    background-size: cover;
+  }
+  .navbg3 {
+    background-color: #F8F0C6;
+    background-size: cover;
+  }
+  .navbg4 {
+    background-color: #FFFDD1;
+    background-size: cover;
+  }
+  .navbg5 {
+    background-color: #F0E9D2;
+    background-size: cover;
+  }
+  .navbg6 {
+    background-color: #c7af61ef;
+    background-size: cover;
+  }
+  
+  .fw-semibold { font-weight: 600; }
+  .lh-tight { line-height: 1.25; }
+
+ }
+
+/* Mobile version */
+@media (max-width: 767.98px) { 
+  nav{
+    background-color: transparent;
+    z-index: 2;
+    position: fixed;
+  }
+  .nav-item{
+    width: 30px;
+    height: 30px;
+  }
+  .bi{
+    position: relative;
+    vertical-align: -.125em;
+    pointer-events: none;
+    fill: currentColor;
+    font-size: 15px;
+    right: 8px;
+    bottom: 10px;
+  }
+  
+  .nav-flush .nav-link {
+    border-radius: 0;
+    color: white;
+  }
+  .nav-flush .nav-link:hover{
+    color: #151830;
+  }
+  .scrollarea {
+    overflow-y: auto;
+  }
+  
+  .brand {
+    background-color: #2c2203ef;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+  }
+
+  .brand img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 5px;
+    top: 52px;
+  }
+  .navbg1 {
+    background-color: #D4CAA3;
+    background-size: cover;
+  }
+  .navbg2 {
+    background-color: #F6E8B1;
+    background-size: cover;
+  }
+  .navbg3 {
+    background-color: #F8F0C6;
+    background-size: cover;
+  }
+  .navbg4 {
+    background-color: #FFFDD1;
+    background-size: cover;
+  }
+  .navbg5 {
+    background-color: #F0E9D2;
+    background-size: cover;
+  }
+  .navbg6 {
+    background-color: #c7af61ef;
+    background-size: cover;
+  }
+  
+  .fw-semibold { font-weight: 600; }
+  .lh-tight { line-height: 1.25; }
+
+ }
+ 
